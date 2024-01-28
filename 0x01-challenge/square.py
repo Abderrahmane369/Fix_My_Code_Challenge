@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
 class square():
-
+    """aaerrazeaze"""
     size = 0
 
     def __init__(self, *args, **kwargs):
+        """aazeze"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -13,9 +14,11 @@ class square():
         return self.size ** 2
 
     def PermiterOfMySquare(self):
+        """aazeze"""
         return 4 * self.size
 
     def __str__(self):
+        """azazeae"""
         return "{}/{}".format(self.size, self.size)
 
 
